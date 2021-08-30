@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const LayoutContainer = styled.div`
   display: flex;
   flex-direction: column;
-  height: 95vh;
+  height: 100vh;
   background-color: #f3f1f2;
 `;
 
@@ -17,6 +17,7 @@ export const LayoutResizer = styled.div`
 export const LayoutWrapperTop = styled.div`
   background-color: yellowgreen;
   height: 50%;
+  min-height: 30%;
   margin-top: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -28,6 +29,8 @@ export const LayoutWrapperTop = styled.div`
 
 export const LayoutWrapperBottom = styled.div`
   background-color: yellowgreen;
+  min-height: 30%;
+  max-height: 70%;
   margin-bottom: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;

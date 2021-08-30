@@ -7,7 +7,7 @@ const Page = () => {
   return (
     <>
       <PageContainer>
-        <Navbar />
+        {/* <Navbar /> */}
         <Layout />
       </PageContainer>
     </>
